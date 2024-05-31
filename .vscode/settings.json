@@ -1,0 +1,8 @@
+{
+    "cucumberautocomplete.steps": [
+        "features/step-definitions/*.js", // constants.js breaks this variant
+        // "features/step-definitions/*steps.js" // custom-steps.js breaks this variant
+    ],
+    "cucumberautocomplete.syncfeatures": "features/*.feature",
+    "cucumberautocomplete.strictGherkinCompletion": true
+}
